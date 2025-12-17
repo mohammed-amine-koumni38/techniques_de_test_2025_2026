@@ -17,5 +17,6 @@ coverage:
 lint:
 	python -m ruff check .
 
+
 doc:
 	python -m pdoc --html --output-dir docs triangulator
